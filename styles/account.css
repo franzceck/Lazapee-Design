@@ -1,0 +1,94 @@
+.account-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .acc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .account-header {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .account-table {
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 150px;
+  }
+  
+  .account-table-link-container {
+    width: 100%;
+    /* background-color: red; */
+    margin-bottom: 1.1rem;
+    position: relative;
+  }
+  
+  .account-table-link-container a {
+    text-decoration: none;
+    color: #252f7b;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .account-table-link-container a:hover {
+    color: #f95031;
+  } 
+  
+  .account-table-data-row2 {
+    position: relative;
+    bottom: 2px;
+  }
+  
+  .account-table-data-row3 {
+    position: relative;
+    bottom: 4px;
+  }
+  
+  .account-table-data-row1:last-child {
+    position: relative;
+    right: 2px;
+  }
+  
+  .account-table-data-row2:last-child {
+    position: relative;
+    right: 2px;
+  }
+  
+  .account-table-data-row3:last-child {
+    position: relative;
+    right: 2px;
+  }
+  
+  .account-table-data-row2 {
+    position: relative;
+    bottom: 2px;
+  }
+  
+  .account-table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+  }
+  
+  .account-table-row1:hover {
+    background: #ececec;
+  }
+  
+  .account-table-row2:hover {
+    background: #ececec;
+  }
+  
+  .account-table-row3:hover {
+    background: #ececec;
+  }
